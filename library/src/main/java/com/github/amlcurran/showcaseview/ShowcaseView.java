@@ -57,9 +57,11 @@ public class ShowcaseView extends RelativeLayout
     public static final int RIGHT_OF_SHOWCASE = 2;
     public static final int ABOVE_SHOWCASE = 1;
     public static final int BELOW_SHOWCASE = 3;
+    public static final int NEWSFEED_SHOWCASE = 4;
+    public static final int FAB_SHOWCASE = 5;
 
     @Retention(RetentionPolicy.SOURCE)
-    @IntDef({UNDEFINED, LEFT_OF_SHOWCASE, RIGHT_OF_SHOWCASE, ABOVE_SHOWCASE, BELOW_SHOWCASE})
+    @IntDef({UNDEFINED, LEFT_OF_SHOWCASE, RIGHT_OF_SHOWCASE, ABOVE_SHOWCASE, BELOW_SHOWCASE,NEWSFEED_SHOWCASE,FAB_SHOWCASE})
     public @interface TextPosition {
     }
 
